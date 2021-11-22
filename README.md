@@ -31,9 +31,8 @@ systemctl start cronie.service
 
 1.执行前要给脚本执行权限
 ```
-chmod +x put.sh
+chmod +x ftp_post.sh
 ```
-2.标准输出，标准错误都会重定向到文件中
 3. ftp客户端安装(arclinux下安装gnu的ftp命令：其支持ipv6)
 
 ```shell
